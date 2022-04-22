@@ -1,0 +1,14 @@
+import pyodbc
+
+conn = pyodbc.connect('Driver={SQL Server};'
+                      'Server=prod-sql01.pepperi.com;'
+                      'Database=Max2000_1410;'
+                      'Trusted_Connection=yes;')
+
+cursor = conn.cursor()
+cursor.execute('select top 10   EI.ExecutingOrganizationID  , count(*)   as FilesCounts from Wrnty.ERPIntegrationFile EI with (nolock) group by '  
+             'EI.ExecutingOrganizationID')
+
+
+for i in cursor:
+    print(i)
