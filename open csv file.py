@@ -1,7 +1,7 @@
 import csv
 import rook
 
-rook.start(token='7aec038f4253ae4d0056ea75d634db2f5d45a3c885cfeb527b20e0b1bcd4a86f', labels={"service":"service#3","env":"dev"},
+rook.start(token='7aec038f4253ae4d0056ea75d634db2f5d45a3c885cfeb527b20e0b1bcd4a86f',
 host='ROOKOUT_CONTROLLER_HOST',
     port=None,
     debug='ROOKOUT_DEBUG',
