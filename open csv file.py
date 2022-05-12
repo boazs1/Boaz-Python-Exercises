@@ -7,6 +7,7 @@ host='ROOKOUT_CONTROLLER_HOST',
     debug='ROOKOUT_DEBUG',
     throw_errors='True',
     log_to_stderr=None,
+    labels=None,
     git_commit='ROOKOUT_COMMIT',
     git_origin='ROOKOUT_REMOTE_ORIGIN',
     fork='ROOKOUT_ENABLE_FORK')
