@@ -17,6 +17,6 @@ mybytes = fp.read()
 mystr = mybytes.decode("utf8")
 fp.close()
 print(mystr)
-while i < 1000:
+while i < 25000:
     print(mystr)
     i += 1
