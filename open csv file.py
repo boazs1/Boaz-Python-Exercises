@@ -9,7 +9,7 @@ host='ROOKOUT_CONTROLLER_HOST',
     log_to_stderr=None,
     labels=None,
     git_commit='ROOKOUT_COMMIT',
-    git_origin='ROOKOUT_REMOTE_ORIGIN',
+    git_origin='https://github.com/boazs1/Boaz-Python-Exercises',
     fork='ROOKOUT_ENABLE_FORK')
 
 file = open("\\temp\status_update.csv")
