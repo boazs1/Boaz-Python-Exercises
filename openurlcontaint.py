@@ -14,7 +14,7 @@ while i < 1000000:
 #print(result);
 
 import rook
-rook.start()
+rook.start(token='7aec038f4253ae4d0056ea75d634db2f5d45a3c885cfeb527b20e0b1bcd4a86f')
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0')
