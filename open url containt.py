@@ -9,3 +9,6 @@ i = 1
 while i < 1000000:
     print(mystr)
     i = i + 1
+
+#result = mystr.find("boaz")
+#print(result);
