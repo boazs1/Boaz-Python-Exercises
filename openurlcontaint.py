@@ -1,5 +1,5 @@
 import urllib.request
-imort rook
+import rook
 fp = urllib.request.urlopen("http://www.ynet.co.il")
 mybytes = fp.read()
 
