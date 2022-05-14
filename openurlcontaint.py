@@ -16,3 +16,6 @@ while i < 1000000:
 
 #result = mystr.find("boaz")
 #print(result);
+if __name__== "__main__":
+    rook.start()
+    app.run(host="0.0.0.0", port=5000, threaded=True)
